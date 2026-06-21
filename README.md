@@ -4,10 +4,10 @@ Minority Escape is a web-based mini-game developed using Java EE (Servlets and J
 
 ## Features
 
-- **Runner & Chaser Mechanics**: Experience a thrilling escape with customizable skins (e.g., "Cyber Punk", "Glitch Warden").
-- **Dynamic Environments**: Select different map themes like "Virtual Grid" or "Deep Web Abyss".
-- **Leaderboard System**: Track the highest scores achieved by players across sessions.
-- **Interactive Setup**: Easy-to-use web interface for selecting runner skins, chaser skins, map themes, and setting a player name before starting.
+- **Runner & Chaser Mechanics**: 
+- **Dynamic Environments**:
+- **Leaderboard System**: 
+- **Interactive Setup**: 
 
 ## Technologies Used
 
