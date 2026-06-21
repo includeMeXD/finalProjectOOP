@@ -32,6 +32,12 @@ Minority Escape is a web-based mini-game developed using Java EE (Servlets and J
    ```
 4. Open your web browser and go to `http://localhost:8085` to play the game!
 
+**Alternative (using NetBeans):**
+1. Open NetBeans.
+2. Select "Open Project".
+3. Go to the project folder and select it.
+4. Click "Run" to start the project.
+
 ## Project Structure & Architecture
 
 The application implements a lightweight MVC (Model-View-Controller) architecture:
