@@ -4,10 +4,10 @@ Minority Escape is a web-based mini-game developed using Java EE (Servlets and J
 
 ## Features
 
-- **Runner & Chaser Mechanics**: 
-- **Dynamic Environments**:
-- **Leaderboard System**: 
-- **Interactive Setup**: 
+- **Runner & Chaser Mechanics**
+- **Dynamic Environments**
+- **Leaderboard System**
+- **Interactive Setup**
 
 ## Technologies Used
 
