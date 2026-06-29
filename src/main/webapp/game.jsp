@@ -7,7 +7,7 @@
 
     if (runnerSkin == null) runnerSkin = "Cyber Punk";
     if (chaserSkin == null) chaserSkin = "Glitch Warden";
-    if (mapTheme == null) mapTheme = "Virtual Grid";
+    if (mapTheme == null) mapTheme = "Virginia Manor";
     if (playerName == null) playerName = "Runner_0x9F";
 %>
 <!DOCTYPE html>
@@ -460,16 +460,7 @@
                     this.#shootAnimTimer--;
                 }
 
-                // Chaser running particles
-                if (Math.random() < 0.2) {
-                    particles.push(new Particle(
-                        this.getX() + this.getWidth(),
-                        this.getY() + Math.random() * this.getHeight(),
-                        Math.random() * 2 + 1,
-                        (Math.random() - 0.5) * 2,
-                        this.#primaryColor
-                    ));
-                }
+
             }
 
             draw(ctx) {

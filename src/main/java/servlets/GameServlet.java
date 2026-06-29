@@ -17,9 +17,9 @@ public class GameServlet extends HttpServlet {
 
     static {
         // Pre-populate with some initial dummy scores to show design excellence on first load
-        scores.add(new ScoreRecord("Neo", "Neon Shadow", "Glitch Warden", "Virtual Grid", 450));
-        scores.add(new ScoreRecord("Alice", "Cyber Punk", "Data Hound", "Cyber Highway", 320));
-        scores.add(new ScoreRecord("Bob", "Pixel Knight", "Sentient Firewall", "Deep Web Abyss", 180));
+        scores.add(new ScoreRecord("Neo", "Neon Shadow", "Glitch Warden", "Virginia Manor", 450));
+        scores.add(new ScoreRecord("Alice", "Cyber Punk", "Data Hound", "Virginia Manor", 320));
+        scores.add(new ScoreRecord("Bob", "Pixel Knight", "Sentient Firewall", "Virginia Manor", 180));
     }
 
     public static List<ScoreRecord> getScores() {
@@ -64,7 +64,7 @@ public class GameServlet extends HttpServlet {
 
             if (runnerSkin == null || runnerSkin.isEmpty()) runnerSkin = "Cyber Punk";
             if (chaserSkin == null || chaserSkin.isEmpty()) chaserSkin = "Glitch Warden";
-            if (mapTheme == null || mapTheme.isEmpty()) mapTheme = "Virtual Grid";
+            if (mapTheme == null || mapTheme.isEmpty()) mapTheme = "Virginia Manor";
             if (playerName == null || playerName.trim().isEmpty()) playerName = "Player";
 
             session.setAttribute("runnerSkin", runnerSkin);
@@ -98,7 +98,7 @@ public class GameServlet extends HttpServlet {
 
             if (runnerSkin == null) runnerSkin = "Cyber Punk";
             if (chaserSkin == null) chaserSkin = "Glitch Warden";
-            if (mapTheme == null) mapTheme = "Virtual Grid";
+            if (mapTheme == null) mapTheme = "Virginia Manor";
 
             scores.add(new ScoreRecord(playerName, runnerSkin, chaserSkin, mapTheme, score));
 
